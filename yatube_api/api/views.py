@@ -42,6 +42,7 @@ class GroupViewSet(viewsets.ReadOnlyModelViewSet):
 class CreateListViewSet(mixins.CreateModelMixin,
                         mixins.ListModelMixin,
                         viewsets.GenericViewSet):
+    pass
 
 
 class FollowViewSet(CreateListViewSet):
